@@ -84,6 +84,13 @@
          <version>2.64.0</version>
       </dependency>
         
+      <!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
+      <dependency>
+          <groupId>org.mariadb.jdbc</groupId>
+          <artifactId>mariadb-java-client</artifactId>
+          <version>3.0.7</version>
+      </dependency> 
+      
       <!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8 -->
       <dependency>
          <groupId>com.oracle.database.jdbc</groupId>
