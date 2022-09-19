@@ -1,1 +1,1 @@
-*/15 * * * * /web/Pacchettivacanza_Eseguibili/AIS/startAIS.sh
+*/15 * * * * java -jar AIS-1.0-SNAPSHOT.jar > AIS.log 2>&1
