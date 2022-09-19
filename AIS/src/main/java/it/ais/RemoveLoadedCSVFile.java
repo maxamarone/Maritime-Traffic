@@ -12,10 +12,7 @@ public class RemoveLoadedCSVFile
    {
       Logger.getLogger(RemoveLoadedCSVFile.class.getName()).log(Level.INFO, "Start RemoveLoadedCSVFile");
 
-      //windows development
-      //String fileString = "G:\\Documenti Utente\\amarone\\Progetti\\AISData\\files\\downloaded\\data.csv";
-      //linux development
-      String fileString = "/web/Pacchettivacanza_Eseguibili/AIS/files/downloaded/data.csv";
+      String fileString = "AIS/files/downloaded/data.csv";
 
       File file = new File(fileString);
       Logger.getLogger(RemoveLoadedCSVFile.class.getName()).log(Level.INFO, "File to remove {0}", fileString);
