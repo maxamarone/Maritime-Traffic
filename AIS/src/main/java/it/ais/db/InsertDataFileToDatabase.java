@@ -17,15 +17,9 @@ public class InsertDataFileToDatabase
 {
 
    /* MariaDB */
-   /*
    private final String  JDBC_URL = "jdbc:mariadb://localhost:3306/ais";
-   private final String  USER = "aisuser";
-   private final String  PASSWORD = "aisuser1234";
-   */    
-   /* Oracle */ 
-   private final String JDBC_URL = "jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=off)(FAILOVER=on)(DESCRIPTION=(ADDRESS_LIST=(LOAD_BALANCE=on)(ADDRESS=(PROTOCOL=TCP)(HOST=dm02-scan.istat.it)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=dgpes.istat.it)))(DESCRIPTION=(ADDRESS_LIST=(LOAD_BALANCE=on)(ADDRESS=(PROTOCOL=TCP)(HOST=dm01-scan.istat.it)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=dgpes.istat.it))))";
-   private final String USER = "PD_STDADDRESS";
-   private final String PASSWORD = "5TQW1QGs";
+   private final String  USER = "******";
+   private final String  PASSWORD = "*****";
 
    @SuppressWarnings("ConvertToTryWithResources")
    public int insertRowBatch(List<Ship> beans)
