@@ -23,12 +23,8 @@ public class MoveGZipFileToLoadedFolder
 
          String dateFormatted = dtf.format(date);
 
-         //windows development
-         //String fromFile = "G:\\Documenti Utente\\amarone\\Progetti\\AISData\\files\\downloaded\\data.csv.gz";
-         //String toFile = "G:\\Documenti Utente\\amarone\\Progetti\\AISData\\files\\loaded\\" + dateFormatted + "_data.csv.gz";
-         //linux development
-         String fromFile = "/web/Pacchettivacanza_Eseguibili/AIS/files/downloaded/data.csv.gz";
-         String toFile = "/web/Pacchettivacanza_Eseguibili/AIS/files/loaded/" + dateFormatted + "_data.csv.gz";
+         String fromFile = "AIS/files/downloaded/data.csv.gz";
+         String toFile = "AIS/files/loaded/" + dateFormatted + "_data.csv.gz";
 
          Logger.getLogger(MoveGZipFileToLoadedFolder.class.getName()).log(Level.INFO, "File source {0}", fromFile);
          Logger.getLogger(MoveGZipFileToLoadedFolder.class.getName()).log(Level.INFO, "File target {0}", toFile);
