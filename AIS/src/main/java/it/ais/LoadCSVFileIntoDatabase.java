@@ -24,10 +24,7 @@ public class LoadCSVFileIntoDatabase
       {
          Logger.getLogger(LoadCSVFileIntoDatabase.class.getName()).log(Level.INFO, "Start LoadCSVFileIntoDatabase");
 
-         //windows development
-         //String fileString = "G:\\Documenti Utente\\amarone\\Progetti\\AISData\\files\\downloaded\\data.csv";
-         //linux development
-         String fileString = "/web/Pacchettivacanza_Eseguibili/AIS/files/downloaded/data.csv";
+         String fileString = "AIS/files/downloaded/data.csv";
 
          Logger.getLogger(LoadCSVFileIntoDatabase.class.getName()).log(Level.INFO, "File input {0}", fileString);
 
