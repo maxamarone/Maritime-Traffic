@@ -19,12 +19,8 @@ public class DecompressGZipFile
       {
          Logger.getLogger(DecompressGZipFile.class.getName()).log(Level.INFO, "Start DecompressGZipFile");
 
-         //windows development
-         //Path source = Paths.get("G:\\Documenti Utente\\amarone\\Progetti\\AISData\\files\\downloaded\\data.csv.gz");
-         //Path target = Paths.get("G:\\Documenti Utente\\amarone\\Progetti\\AISData\\files\\downloaded\\data.csv");  
-         //linux development
-         Path source = Paths.get("/web/Pacchettivacanza_Eseguibili/AIS/files/downloaded/data.csv.gz");
-         Path target = Paths.get("/web/Pacchettivacanza_Eseguibili/AIS/files/downloaded/data.csv");
+         Path source = Paths.get("AIS/files/downloaded/data.csv.gz");
+         Path target = Paths.get("AIS/files/downloaded/data.csv");
 
          Logger.getLogger(DecompressGZipFile.class.getName()).log(Level.INFO, "File input {0}", source);
          Logger.getLogger(DecompressGZipFile.class.getName()).log(Level.INFO, "File output {0}", target);
