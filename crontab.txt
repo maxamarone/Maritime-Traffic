@@ -1,0 +1,1 @@
+*/15 * * * * /web/Pacchettivacanza_Eseguibili/AIS/startAIS.sh
