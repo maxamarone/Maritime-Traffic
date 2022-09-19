@@ -22,10 +22,7 @@ public class RemoveUnwantedCharsToFile
       {
          Logger.getLogger(RemoveUnwantedCharsToFile.class.getName()).log(Level.INFO, "Start RemoveUnwantedCharsToFile");
 
-         //windows development
-         //String inputfileString = "G:\\Documenti Utente\\amarone\\Progetti\\AISData\\files\\downloaded\\data.csv";
-         //linux development
-         String inputfileString = "/web/Pacchettivacanza_Eseguibili/AIS/files/downloaded/data.csv";
+         String inputfileString = "AIS/files/downloaded/data.csv";
 
          File inputFile = new File(inputfileString);
          Logger.getLogger(LoadCSVFileIntoDatabase.class.getName()).log(Level.INFO, "File input {0}", inputfileString);
