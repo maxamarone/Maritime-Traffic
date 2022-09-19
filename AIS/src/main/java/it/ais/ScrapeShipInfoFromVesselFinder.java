@@ -40,8 +40,8 @@ public class ScrapeShipInfoFromVesselFinder
 
          if (USE_PROXY)
          {
-            String proxyHost = "proxy.istat.it";
-            int proxyPort = 8080;
+            String proxyHost = "*******";
+            int proxyPort = 1234;
             ProxyConfig proxy = new ProxyConfig(proxyHost, proxyPort, null);
             options.setProxyConfig(proxy);
          }
