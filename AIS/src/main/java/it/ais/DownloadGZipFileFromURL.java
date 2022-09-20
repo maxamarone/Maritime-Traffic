@@ -26,8 +26,8 @@ public class DownloadGZipFileFromURL
          Logger.getLogger(DownloadGZipFileFromURL.class.getName()).log(Level.INFO, "File {0}", fileString);
 
          //proxy setting
-         System.setProperty("https.proxyHost", "proxy.istat.it");
-         System.setProperty("https.proxyPort", "8080");
+         System.setProperty("https.proxyHost", "********");
+         System.setProperty("https.proxyPort", "1234");
 
          URL url = new URL(urlString);
 
