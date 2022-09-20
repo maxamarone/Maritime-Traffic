@@ -20,6 +20,9 @@ public class DownloadGZipFileFromURL
       {
          Logger.getLogger(DownloadGZipFileFromURL.class.getName()).log(Level.INFO, "Start DownloadGZipFileFromURL");
 
+         //String urlString = "https://data.aishub.net/ws.php?username=*********&format=1&output=csv&compress=2";//all data
+         String urlString = "https://data.aishub.net/ws.php?username=**********&format=1&output=csv&compress=2&latmin=38.4&latmax=38.8&lonmin=-9.5&lonmax=-9.0";//Lisbona port          
+         
          String fileString = "AIS/files/downloaded/data.csv.gz";
 
          Logger.getLogger(DownloadGZipFileFromURL.class.getName()).log(Level.INFO, "URL {0}", urlString);
