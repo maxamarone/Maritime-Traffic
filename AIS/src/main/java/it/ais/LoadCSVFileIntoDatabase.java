@@ -30,13 +30,6 @@ public class LoadCSVFileIntoDatabase
 
          FileReader fr = new FileReader(fileString);
 
-         /*
-            List<Ship> beans = new CsvToBeanBuilder<Ship>(fr)
-                .withType(Ship.class)
-                .withThrowExceptions(true)
-                .build()
-                .parse();
-          */
          CsvToBeanBuilder<Ship> ctbb = new CsvToBeanBuilder<>(fr);
          ctbb.withType(Ship.class);
          ctbb.withThrowExceptions(true);
